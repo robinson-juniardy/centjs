@@ -1,5 +1,5 @@
 {
-  "name": "centjs",
+  "name": "@centjs/core",
   "version": "1.0.0",
   "description": "core library from cent",
   "main": "dist/core/index.js",
