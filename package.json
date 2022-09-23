@@ -1,0 +1,36 @@
+{
+  "name": "centjs",
+  "version": "1.0.0",
+  "description": "core library from cent",
+  "main": "dist/core/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && npx tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/core/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinson-juniardy/centjs.git"
+  },
+  "author": "Robby Juniardi | Lucky Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinson-juniardy/centjs/issues"
+  },
+  "homepage": "https://github.com/robinson-juniardy/centjs#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.7.18",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
